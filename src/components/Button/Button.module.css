@@ -1,0 +1,36 @@
+.button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  margin-right: 1rem;
+  text-align: left;
+  flex: 0 1 auto;
+}
+
+.button:hover {
+  opacity: 0.8;
+  background: #3e6ae1;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.button.active {
+  background: #3e6ae1;
+  color: #fff;
+}
+
+.button.long {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.button_cont {
+  display: flex;
+  width: 500px;
+}
