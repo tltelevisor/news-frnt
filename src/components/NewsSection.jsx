@@ -2,8 +2,8 @@ import ShowNews from './ShowNews'
 import { useEffect, useState, useCallback } from 'react'
 import Button from './Button/Button'
 
-// const baseUrl = `${window.location.protocol}//${window.location.host}`;
-const baseUrl = `http://127.0.0.1:5000`
+const baseUrl = `${window.location.protocol}//${window.location.host}`;
+// const baseUrl = `http://127.0.0.1:5000`
 const apiUrl = `${baseUrl}/data`;
 const renewUrl = `${baseUrl}/renew`;
 
