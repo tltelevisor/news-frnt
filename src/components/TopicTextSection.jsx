@@ -16,12 +16,11 @@ export default function TopicTextSection(children) {
             </Button>
 
             <Modal open={modal}>
-                <p>{children.long_text}</p>
-                <Button
-                    onClick={() => setModal(false)}
-                >
+                <Button onClick={() => setModal(false)}>
                     Закрыть
                 </Button>
+                <p>{children.long_text}</p>
+
             </Modal>
         </section>
     )
