@@ -1,14 +1,12 @@
 import IntroSection from './components/IntroSection'
 import NewsSection from './components/NewsSection'
 
-export default function App() {
-
-
+export default function App({config}) {
 
   return (
     <>
       <main>
-        <IntroSection />
+        <IntroSection config={config}/>
         <NewsSection />
       </main>
     </>
